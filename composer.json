@@ -1,5 +1,5 @@
 {
-    "name": "bgtecnologia/wm-nfse",
+    "name": "lucas-simas/wm-nfse",
     "description": "PHP SDK da API de Nota Fiscal de Serviço da Webmania",
     "type": "library",
     "require": {
