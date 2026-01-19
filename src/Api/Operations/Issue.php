@@ -166,6 +166,9 @@ class Issue implements APIOperation
         if (isset($Servico->codigoNbs)) {
             $rps->servico->codigo_nbs = $Servico->codigoNbs;
         }
+        if (isset($Servico->tributacaoIss)) {
+            $rps->servico->tributacao_iss = $Servico->tributacaoIss;
+        }
         if (isset($Servico->localPrestacao)) {
             $rps->servico->local_prestacao = $Servico->localPrestacao;
         }
